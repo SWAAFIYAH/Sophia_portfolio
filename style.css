@@ -1,0 +1,36 @@
+body{
+    background-image: url(./Images/pexels-umishots-29435129.jpg);
+    background-size: cover;
+}
+
+#heading1{
+    color: blue;
+    align-self: center;
+}
+
+nav{
+    background-color: transparent;
+    text-align: center;
+}
+
+.unorderdlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.unorderdlist li{
+    margin: 0 20px;
+}
+
+.homeparagraph{
+    color: navy;
+    font-size: medium;
+    font-weight: bold;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: ;
+}
