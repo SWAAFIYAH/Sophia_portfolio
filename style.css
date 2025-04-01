@@ -17,10 +17,11 @@ nav{
     list-style-type: none;
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .unorderdlist li{
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .homeparagraph{
@@ -30,7 +31,51 @@ nav{
 }
 .div1{
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: start;
+    width: auto;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.android_image{
+    width: 300px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.text-image-div{
+    display: flex;
     align-items: center;
-    height: ;
+    justify-content: center;
+    margin-top: 50px;
+
+    gap: 20px;
+    padding: 20px;
+}
+
+.nav-div{
+    height: 50px;
+    background-color: lightgray;
+    align-items: end;
+    padding: 10px;
+}
+
+.image-div{
+    width: auto;
+}
+
+.cvbutton{
+    background-color: lightgray;
+    width: 200px;
+    height: 50px;
+    color: blue;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 30px;
 }
