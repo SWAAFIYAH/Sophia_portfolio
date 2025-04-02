@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 #heading1{
     color: blue;
@@ -108,12 +110,21 @@ background-size: cover;
 }
 
 
-#languages, #contacts{
+ #contacts{
     height: 100vh;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    
+}
+
+#projects{
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     
 }
@@ -206,6 +217,10 @@ background-size: cover;
     color: navy;
     font-weight: bold;
 }
+
+
+.education-defination{
+}
 #contact{
     height: 50vh;
     display: flex;
@@ -219,4 +234,55 @@ background-size: cover;
     color: navy;
 }
 
+.projects-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
 
+.inner-project-div{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.inner-paragraph-div{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    border-top-left-radius: 20px;  /* Adjust the value to your preference */
+    border-top-right-radius: 20px;
+    background-color: navy;
+    text-align: center;
+}
+
+.inner-paragraph-div p {
+    color: white;
+    font-size: larger;
+
+}
+
+
+.major-projects-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.major-projects-div div h2{
+    color: navy;
+}
+
+.project-defination-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
