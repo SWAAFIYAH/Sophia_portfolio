@@ -234,7 +234,7 @@ background-size: cover;
 .education-defination{
 }
 #contact{
-    height: 50vh;
+    height: 100vh;
     display: flex;
     background-color: white;
     justify-content: center;
@@ -377,3 +377,103 @@ background-size: cover;
         padding: 10px;
     }
 }
+
+
+/* Contact Section */
+#contact-section {
+    background-color: #f0f4f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form .form_group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form .form_group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.contact-form .form_group input,
+.contact-form .form_group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form .form_group input:focus,
+.contact-form .form_group textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.contact-form .form_group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form .submit-button {
+    background-color: navy;
+    color: white;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.contact-form .submit-button:hover {
+    background-color: lightblue;
+}
+
+.contact-form .submit-button:active {
+}
+
+@media (max-width: 768px) {
+    .contact-form-container {
+        padding: 20px;
+    }
+
+    .contact-form .form-group input,
+    .contact-form .form-group textarea {
+        font-size: 14px;
+    }
+
+    .contact-form .submit-button {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+}
+
