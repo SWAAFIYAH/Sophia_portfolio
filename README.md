@@ -18,12 +18,12 @@ You can view my portfolio by visiting https://swaafiyah.github.io/Sophia_portfol
 
 Running Locally:
 Clone the repository:
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/SWAAFIYAH/Sophia_portfolio.git
 
 Navigate into the project folder:
-cd portfolio
+cd Sophia_portfolio
 
 Open index.html in your browser.
 
 Contact
-Feel free to get in touch with me via [sophiamatano10@gmail.com].
+Feel free to get in touch with me via sophiamatano10@gmail.com.
