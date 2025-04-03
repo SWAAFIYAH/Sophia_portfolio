@@ -14,7 +14,7 @@ HTML and CSS
 
 
 How to View
-You can view my portfolio by visiting [insert link if hosted online] or by running the project locally.
+You can view my portfolio by visiting https://swaafiyah.github.io/Sophia_portfolio/ or by running the project locally.
 
 Running Locally:
 Clone the repository:
