@@ -348,6 +348,15 @@ background-size: cover;
 
 /* Very Small Screens (Phones in Portrait) */
 @media (max-width: 480px) {
+
+    .text-image-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
     .button-container {
         width: 100%;
     }
