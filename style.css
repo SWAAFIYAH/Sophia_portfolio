@@ -354,6 +354,11 @@ background-size: cover;
     .inner-project-div {
         width: 100%;
     }
+
+    .languages-mini-div{
+        flex-direction: column;
+        gap: 20px; 
+    }
     .projects-div {
         flex-direction: column;
         gap: 20px;
